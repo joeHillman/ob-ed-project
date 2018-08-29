@@ -1,0 +1,33 @@
+.staff-list-app {
+  display: flex;
+  padding: 30px;
+  width: 75%;
+  justify-content: space-around;
+  margin: 0 auto;
+
+  .form-controls {
+    list-style: none;
+
+    li {
+      margin-top: 10px;
+    }
+
+    label {
+      text-align: right;
+      width: 65px;
+      display: inline-block;
+      margin-right: 15px;
+    }
+
+    .submit-button {
+      text-align: right;
+    }
+
+    .state-dropdown {
+      select {
+        width: 100px;
+        display: inline-block;
+      }
+    }
+  }
+}

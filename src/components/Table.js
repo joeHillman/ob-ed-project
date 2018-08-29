@@ -26,7 +26,7 @@ const Table = (props) => {
       }
 
       return (
-        <tr>
+        <tr key={index}>
           {renderRow()}
         </tr>
       );

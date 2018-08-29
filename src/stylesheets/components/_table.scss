@@ -1,0 +1,11 @@
+.c-table {
+  th,
+  td {
+    text-align: left;
+    padding: 5px 10px;
+  }
+
+  tr:nth-child(odd) {
+    background: #f7f7f7;
+  }
+}

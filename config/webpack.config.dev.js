@@ -216,13 +216,24 @@ module.exports = {
           fallback: "style-loader",
           use: ["css-loader", "sass-loader"]
         }),
-        // use: [
-        //     "style-loader", // creates style nodes from JS strings
-        //     "css-loader", // translates CSS into CommonJS
-        //     "sass-loader" // compiles Sass to CSS,
-        //     // "ExtractText"
-        //   ]
       },
+      // {
+      //   test: /\.scss$/,
+      //   use: [
+      //     // {
+      //     //   loader: 'file-loader',
+      //     //   options: {
+      //     //     name: '[name].css',
+      //     //     outputPath: 'stylesheets/css/'
+      //     //   }
+      //     // },
+      //     // { loader: 'extract-loader' },
+      //     { loader: 'css-loader' },
+      //     { loader: 'sass-loader' }
+      //   ]
+      // }
+
+
     ],
   },
   plugins: [

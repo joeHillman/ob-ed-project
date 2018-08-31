@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./stylesheets/styles.scss";
+// import "./stylesheets/styles.scss";
 
 import Button from "./components/Button";
 import Table from "./components/Table";
